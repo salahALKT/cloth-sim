@@ -1,6 +1,6 @@
 QMAKE_CXXFLAGS += -std=c++11
 
-TARGET = ex_05_text
+TARGET = cloth_sim_text
 
 LIBS += -L../general -lgeneral
 PRE_TARGETDEPS += ../general/libgeneral.a

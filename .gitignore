@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+# Qt / qmake build output
+.qmake.stash
+Makefile
+qrc_*.cpp
+moc_*.cpp
+build/
+cloth_sim
+cloth_sim_text

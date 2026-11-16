@@ -17,5 +17,7 @@ void TextViewer::dessine(Contrainte const& a_dessiner){
   cout<<a_dessiner.getRayon()<<"\n";
 }
 void TextViewer::dessine(Systeme const& a_dessiner){
-  a_dessiner.dessine_sur(*this);
+  // Systeme::dessine_sur already calls this method, so drawing the system
+  // here again would recurse forever. Print the mass positions instead.
+  a_dessiner.affiche_positions(cout);
 }
