@@ -10,7 +10,7 @@ and push them with time-varying forces.
 marks where a sinusoidal force pushes the cloth during the first five seconds; its colour shows the force's
 strength.*
 
-Started as a school project, then extended.
+Started as a school project.
 
 ## Features
 
